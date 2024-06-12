@@ -1,10 +1,20 @@
 .nav-list {
-    text-decoration: none;
-    padding: 0.25rem 1rem;
-    border-radius: 0.25rem;
-    margin-inline: 0.25rem; 
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: 0.25rem;
+  margin-inline: 0.25rem;
+  color:#ffff;
+  font-weight: 400;
 }
 
 .nav-list:hover {
-    background-color: #787272;
+  background-color: #787272;
+  /* transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1); */
+  transition:400ms cubic-bezier(0.4, 0.01, 0.55, 0.95);
+}
+
+.active {
+    color: #d2d0d0;
+    background-color: #5b5858;
+    font-weight: 600;
 }
