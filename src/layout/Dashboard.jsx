@@ -28,11 +28,7 @@ export default function Dashboard() {
 
           <Navbar.Collapse id="navbar--dashboard" className={openMenu}>
             <Nav className="ms-auto">
-              <NavLink
-                to="/"
-                className=" nav-list"
-                activeclassname="active"
-              >
+              <NavLink to="/" className=" nav-list" activeclassname="active">
                 Home
               </NavLink>
               <NavLink
@@ -61,7 +57,9 @@ export default function Dashboard() {
         </Container>
       </Navbar>
 
-      <Outlet id="dashboard" />
+      <Container className=" my-5">
+        <Outlet id="dashboard" />
+      </Container>
     </nav>
   );
 }
