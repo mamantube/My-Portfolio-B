@@ -6,7 +6,7 @@ import {
     DiMongodb,
     DiCss3
   } from "react-icons/di";
-  import { SiExpress } from "react-icons/si";
+  import { SiExpress, SiMysql } from "react-icons/si";
   import { FaBootstrap } from "react-icons/fa";
   import "../assets/css/skillset.css"
 
@@ -39,6 +39,9 @@ export default function Skillset() {
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <FaBootstrap />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiMysql />
         </Col>
       </Row>
     </>
