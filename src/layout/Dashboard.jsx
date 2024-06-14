@@ -2,6 +2,7 @@ import { Outlet, NavLink } from "react-router-dom";
 import { Navbar, Nav, Container, Button } from "react-bootstrap";
 import { useState } from "react";
 import "../assets/css/dashboard.css";
+import Footer from "../components/Footer";
 
 export default function Dashboard() {
   const [show, setShow] = useState(false);
@@ -60,6 +61,10 @@ export default function Dashboard() {
       <Container className=" my-5">
         <Outlet id="dashboard" />
       </Container>
+
+      <Footer />
+
+
     </nav>
   );
 }
