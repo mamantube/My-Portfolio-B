@@ -24,8 +24,14 @@
     overflow: hidden !important;
     border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
   }
+
   .tech-icon-images {
     padding: 20px !important;
     line-height: 1.6 !important;
+  }
+
+  .i-do p {
+    font-size: 0.97rem;
+    line-height: 1rem;
   }
   
