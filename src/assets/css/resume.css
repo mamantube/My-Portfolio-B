@@ -1,0 +1,8 @@
+.cv {
+    height: 20rem;
+    border: blue solid 3px;
+}
+
+.cv img {
+    height: 20rem;
+}
