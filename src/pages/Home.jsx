@@ -1,4 +1,4 @@
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, } from "react-bootstrap";
 import "../assets/css/home.css";
 import emoji from "react-easy-emoji";
 import Skillset from "../components/Skillset";
@@ -36,19 +36,28 @@ export default function Home() {
                 </Row>
                 <Row>
                   <Col className="social--media">
-                    <a href="">
+                    <a
+                      href="https://www.youtube.com/channel/UCaKHLfNcnPTpXi19IbU-IRQ"
+                      target="blank_"
+                    >
                       <img src="/img/youtube.png" alt="" />
                     </a>
-                    <a href="">
+                    <a
+                      href="https://www.instagram.com/firman_dy07/"
+                      target="blank_"
+                    >
                       <img src="/img/instagram.png" alt="" />
                     </a>
-                    <a href="">
+                    <a href="https://github.com/mamantube" target="blank_">
                       <img src="/img/github.png" alt="" />
                     </a>
-                    <a href="">
+                    <a
+                      href="https://www.linkedin.com/in/muhammad-firman-hidayat-7a5293209/"
+                      target="blank_"
+                    >
                       <img src="/img/linkedin.png" alt="" />
                     </a>
-                    <a href="">
+                    <a href="mailto:firmanhiday.id007@gmail.com">
                       <img src="/img/gmail.png" alt="" />
                     </a>
                   </Col>
@@ -58,6 +67,7 @@ export default function Home() {
           </Fade>
         </Col>
       </Row>
+
       <Skillset />
     </main>
   );
