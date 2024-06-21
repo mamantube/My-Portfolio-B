@@ -5,7 +5,7 @@ import "../assets/css/dashboard.css";
 import Footer from "../components/Footer";
 
 export default function Dashboard() {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
 
   function onShowMenu() {
     setShow(!show);
