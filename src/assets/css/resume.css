@@ -1,6 +1,6 @@
 .cv-img {
     box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.272) !important;
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 .cv-img:hover {
