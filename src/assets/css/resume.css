@@ -7,3 +7,24 @@
     border:1px solid black;
     transform: scale(1.05);
 }
+
+.my-certificate img {
+    width: 500px;
+    /* border-radius: 5%; */
+    transition: all 0.5s;
+}
+
+.my-certificate img:hover {
+    transform: scale(1.05);
+    border: 2px solid navy;
+    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.272) !important;
+}
+
+.description {
+    padding-top: 80px;
+}
+
+.description p{
+    line-height: 1rem;
+    /* font-size: 0.97rem; */
+}
