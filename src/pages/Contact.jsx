@@ -5,7 +5,9 @@ import {
   VITE_EMAILJS_TEMPLATE_ID,
   VITE_EMAILJS_PUBLIC_KEY,
 } from "../utils/Unpublished";
-import { Button, Form } from "react-bootstrap";
+import { Button, Form, Card, Col, Row } from "react-bootstrap";
+import "../assets/css/contact.css";
+import { Bounce } from "react-awesome-reveal";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -40,38 +42,68 @@ export default function Contact() {
   }
 
   return (
-    <Form onSubmit={sendEmail}>
-      <Form.Group className="mb-3">
-        <Form.Control
-          type="text"
-          value={name}
-          placeholder="name"
-          required
-          onChange={(e) => setName(e.target.value)}
-        />
-      </Form.Group>
+    <section className="justify-content-center align-items-center">
+      {/* <Row>
+        <Col className=" d-flex justify-content-center align-items-center mb-5"><h1>GET IN TOUCH</h1></Col>
+      </Row> */}
+      <Row>
+        <Col className=" d-flex justify-content-center align-items-center">
+          <Bounce>
+            <img
+              className=" d-flex justify-content-center align-items-center"
+              src="/img/sendmail.png"
+              alt=""
+            />
+          </Bounce>
+        </Col>
+        <Col className=" d-flex justify-content-center align-items-center">
+          <Bounce>
+            <Card className=" contact-form">
+              <Card.Title className=" d-flex justify-content-center align-items-center pt-5">
+                <h3>Contact Me</h3>
+              </Card.Title>
+              <Card.Body>
+                <Form onSubmit={sendEmail}>
+                  <Form.Group className="mb-3">
+                    <Form.Control
+                      type="text"
+                      value={name}
+                      placeholder="What's Your Name"
+                      required
+                      onChange={(e) => setName(e.target.value)}
+                      className=" border-2"
+                    />
+                  </Form.Group>
 
-      <Form.Group className="mb-3">
-        <Form.Control
-          type="email"
-          name="email_id"
-          placeholder="email"
-          required
-          onChange={(e) => setEmail(e.target.value)}
-        />
-      </Form.Group>
+                  <Form.Group className="mb-3">
+                    <Form.Control
+                      type="email"
+                      name="email_id"
+                      placeholder="What's Your Email"
+                      required
+                      onChange={(e) => setEmail(e.target.value)}
+                      className=" border-2"
+                    />
+                  </Form.Group>
 
-      <Form.Group className="mb-3">
-        <Form.Control
-          as="textarea"
-          name="message"
-          rows="3"
-          placeholder="message"
-          required
-          onChange={(e) => setMessage(e.target.value)}
-        />
-      </Form.Group>
-      <Button type="submit">Submit</Button>
-    </Form>
+                  <Form.Group className="mb-3">
+                    <Form.Control
+                      as="textarea"
+                      name="message"
+                      rows="3"
+                      placeholder="Your Message Here....."
+                      required
+                      onChange={(e) => setMessage(e.target.value)}
+                      className=" border-2"
+                    />
+                  </Form.Group>
+                  <Button type="submit">Send Message</Button>
+                </Form>
+              </Card.Body>
+            </Card>
+          </Bounce>
+        </Col>
+      </Row>
+    </section>
   );
 }
