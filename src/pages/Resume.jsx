@@ -25,7 +25,7 @@ export default function Resume() {
         <Row>
           <Col className=" d-flex justify-content-center align-items-center mt-4">
             {/* <img className="cv-img" src="/img/my-resume.png" alt="" /> */}
-            <JackInTheBox>
+            <JackInTheBox delay="0.5">
               <Document
                 file={pdf}
                 className="d-flex justify-content-center cv-img"
