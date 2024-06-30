@@ -24,15 +24,16 @@ export default function Resume() {
         </Row>
         <Row>
           <Col className=" d-flex justify-content-center align-items-center mt-4">
-            {/* <img className="cv-img" src="/img/my-resume.png" alt="" /> */}
-            <JackInTheBox>
+            <img className="cv-img" src="/img/my-resume.png" alt="" />
+
+            {/* <JackInTheBox>
               <Document
                 file={pdf}
-                className="d-flex justify-content-center cv-img"
+                className="d-flex justify-content-center"
               >
                 <Page pageNumber={1} />
               </Document>
-            </JackInTheBox>
+            </JackInTheBox> */}
           </Col>
           <Row>
             <Col className=" d-flex justify-content-center align-items-center mt-5">
@@ -50,7 +51,7 @@ export default function Resume() {
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col className=" d-flex justify-content-center align-items-center">
             <Slide direction="left">
               <img src="/img/bootcamp-react-fe.jpg" alt="" />
             </Slide>
@@ -80,7 +81,7 @@ export default function Resume() {
           </Col>
         </Row>
         <Row className=" mt-5">
-          <Col>
+          <Col className=" d-flex justify-content-center align-items-center">
             <Fade direction="left">
               <img src="/img/course-web-dev-basic.jpg" alt="" />
             </Fade>
@@ -103,11 +104,11 @@ export default function Resume() {
           </Col>
         </Row>
         <Row className=" mt-5">
-          <Col>
+          <Col className=" d-flex justify-content-center align-items-center">
             <Fade direction="left">
               <img src="/img/course-fe-basic.jpg" alt="" />
             </Fade>
-          </Col>
+          </Col >
           <Col className="description">
             <Fade direction="right">
               <p>
@@ -126,7 +127,7 @@ export default function Resume() {
           </Col>
         </Row>
         <Row className=" mt-5">
-          <Col>
+          <Col className=" d-flex justify-content-center align-items-center">
             <Fade direction="left">
               <img src="/img/course-JS.jpg" alt="" />
             </Fade>
@@ -166,7 +167,7 @@ export default function Resume() {
           </Col>
         </Row>
         <Row className=" mt-5">
-          <Col>
+          <Col className=" d-flex justify-content-center align-items-center">
             <Fade direction="left">
               <img src="/img/course-react-fe-basic.jpg" alt="" />
             </Fade>
