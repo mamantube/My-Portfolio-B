@@ -17,7 +17,7 @@ export default function Dashboard() {
 
   return (
     <nav>
-      <Navbar bg="dark" data-bs-theme="dark" expand="lg" collapseOnSelect>
+      <Navbar bg="dark" data-bs-theme="dark" expand="md" collapseOnSelect>
         <Container >
           <Navbar.Brand>
             <h3 className="text-h3">Maman</h3>
