@@ -1,9 +1,10 @@
-img {
-    max-width: 25rem;
+.mail-img {
+     width: 20rem;
+     margin: 2rem;
 }
 
 .contact-form {
-    width: 25rem;
+    width: 20rem;
     background-color: rgba(0, 0, 128, 0.74);
     box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137)
 

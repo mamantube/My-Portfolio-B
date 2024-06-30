@@ -47,16 +47,16 @@ export default function Contact() {
         <Col className=" d-flex justify-content-center align-items-center mb-5"><h1>GET IN TOUCH</h1></Col>
       </Row> */}
       <Row>
-        <Col className=" d-flex justify-content-center align-items-center">
+        <Col xs="12" md="6" className=" d-flex justify-content-center align-items-center">
           <Bounce>
             <img
-              className=" d-flex justify-content-center align-items-center"
+              className=" d-flex justify-content-center align-items-center mail-img"
               src="/img/sendmail.png"
               alt=""
             />
           </Bounce>
         </Col>
-        <Col className=" d-flex justify-content-center align-items-center">
+        <Col xs="12" md="6" className=" d-flex justify-content-center align-items-center" >
           <Bounce>
             <Card className=" contact-form">
               <Card.Title className=" d-flex justify-content-center align-items-center pt-5">
