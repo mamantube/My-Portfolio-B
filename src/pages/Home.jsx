@@ -1,4 +1,4 @@
-import { Row, Col, } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import "../assets/css/home.css";
 import emoji from "react-easy-emoji";
 import Skillset from "../components/Skillset";
