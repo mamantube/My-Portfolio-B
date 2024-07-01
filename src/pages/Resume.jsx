@@ -1,7 +1,7 @@
 import { Col, Row, Button } from "react-bootstrap";
 import "../assets/css/resume.css";
 import pdf from "../assets/my-resume.pdf";
-import { Document, Page, pdfjs } from "react-pdf";
+import { pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
@@ -9,14 +9,14 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   import.meta.url
 ).toString();
 import { MdOutlineDoubleArrow } from "react-icons/md";
-import { Fade, JackInTheBox, Slide } from "react-awesome-reveal";
+import { Fade, Zoom, Slide } from "react-awesome-reveal";
 
 export default function Resume() {
   return (
     <section>
       <div className=" my-resume">
         <Row>
-          <Col className=" d-flex justify-content-center align-items-center mt-5">
+          <Col className=" d-flex justify-content-center align-items-center mt-3">
             <Slide direction="down">
               <h1>MY RESUME</h1>
             </Slide>
@@ -24,16 +24,9 @@ export default function Resume() {
         </Row>
         <Row>
           <Col className=" d-flex justify-content-center align-items-center mt-4">
-            <img className="cv-img" src="/img/my-resume.png" alt="" />
-
-            {/* <JackInTheBox>
-              <Document
-                file={pdf}
-                className="d-flex justify-content-center"
-              >
-                <Page pageNumber={1} />
-              </Document>
-            </JackInTheBox> */}
+            <Zoom>
+              <img className="cv-img" src="/img/my-resume.png" alt="" />
+            </Zoom>
           </Col>
           <Row>
             <Col className=" d-flex justify-content-center align-items-center mt-5">
@@ -108,7 +101,7 @@ export default function Resume() {
             <Fade direction="left">
               <img src="/img/course-fe-basic.jpg" alt="" />
             </Fade>
-          </Col >
+          </Col>
           <Col className="description">
             <Fade direction="right">
               <p>
