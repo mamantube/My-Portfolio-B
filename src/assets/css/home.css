@@ -54,43 +54,8 @@ p {
   margin-top: -10px;
 }
 
-.my--card {
-  background-color: rgba(0, 0, 128, 0.758);
-  border-radius: 1rem;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
-  width: 17rem;
-  text-align: center;
-  transition: transform 0.5s ease, box-shadow 0.5s ease;
-}
-
-.my--card:hover {
-  transform: scale(1.15);
-  box-shadow: 5px 6px 5px 4px;
-}
-
-
-.card--body {
-  padding: 2rem 1rem;
-  text-align: center;
-  
-}
-
-.card--image {
-    height: 8rem;
-    border-radius: 50%;
-    border: 0.5rem solid white;
-}
-
-.social--media {
-  padding-top: 2.5rem;
-}
-
-.social--media a img {
-  height: 2rem;
-  margin-right: 0.8rem;
-  transition: transform 0.5s ease;
-}
-
-.social--media a img:hover {
-  transform: translateY(-0.5rem)
+.my-picture {
+  border-radius: 50%;
+  background-color: blue;
+  width: 20rem;
 }

@@ -23,47 +23,11 @@ export default function Home() {
         </Col>
         <Col className=" d-flex justify-content-center align-items-center profile--picture">
           <Fade direction="right" duration="1500">
-            <div className=" align-content-center my--card">
-              <div className=" card--body">
-                <Row>
-                  <Col>
-                    <img
-                      className="card--image"
-                      src="/img/my-pict.jpg"
-                      alt=""
-                    />
-                  </Col>
-                </Row>
-                <Row>
-                  <Col className="social--media">
-                    <a
-                      href="https://www.youtube.com/channel/UCaKHLfNcnPTpXi19IbU-IRQ"
-                      target="blank_"
-                    >
-                      <img src="/img/youtube.png" alt="" />
-                    </a>
-                    <a
-                      href="https://www.instagram.com/firman_dy07/"
-                      target="blank_"
-                    >
-                      <img src="/img/instagram.png" alt="" />
-                    </a>
-                    <a href="https://github.com/mamantube" target="blank_">
-                      <img src="/img/github.png" alt="" />
-                    </a>
-                    <a
-                      href="https://www.linkedin.com/in/muhammad-firman-hidayat-7a5293209/"
-                      target="blank_"
-                    >
-                      <img src="/img/linkedin.png" alt="" />
-                    </a>
-                    <a href="mailto:firmanhiday.id007@gmail.com">
-                      <img src="/img/gmail.png" alt="" />
-                    </a>
-                  </Col>
-                </Row>
-              </div>
-            </div>
+            <Row>
+              <Col>
+                <img src="img/my-pict2.png" alt="" className="my-picture" />
+              </Col>
+            </Row>
           </Fade>
         </Col>
       </Row>
