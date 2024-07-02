@@ -40,13 +40,6 @@ export default function Dashboard() {
                 Resume
               </NavLink>
               <NavLink
-                to="/project"
-                className="nav-list "
-                activeclassname="active"
-              >
-                Project
-              </NavLink>
-              <NavLink
                 to="/contact"
                 className="nav-list "
                 activeclassname="active"
