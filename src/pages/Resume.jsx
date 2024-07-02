@@ -10,6 +10,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 ).toString();
 import { MdOutlineDoubleArrow } from "react-icons/md";
 import { Fade, Zoom, Slide } from "react-awesome-reveal";
+import Project from "../components/Project"
 
 export default function Resume() {
   return (
@@ -37,6 +38,7 @@ export default function Resume() {
           </Row>
         </Row>
       </div>
+      <Project />
       <div className="my-certificate mt-5">
         <Row>
           <Col className=" d-flex justify-content-center align-items-center mb-5">
