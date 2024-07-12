@@ -7,7 +7,7 @@ import { Fade } from "react-awesome-reveal";
 export default function Home() {
   return (
     <main>
-      <Row className=" d-flex justify-content-center align-items-center">
+      <Row className=" d-flex justify-content-center align-items-center min-vh-100">
         <Col className=" p-5">
           <Fade direction="left" duration="1500">
             <h4>Hello Every One, My name</h4>

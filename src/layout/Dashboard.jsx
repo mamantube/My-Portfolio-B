@@ -51,7 +51,7 @@ export default function Dashboard() {
         </Container>
       </Navbar>
 
-      <Container className=" my-5">
+      <Container className=" ">
         <Outlet id="dashboard" />
       </Container>
 
