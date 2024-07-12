@@ -25,3 +25,9 @@
     font-weight: 600;
 }
 
+@media (max-width: 578px) {
+  .my-brand {
+    font-size: small;
+  }
+}
+
