@@ -127,7 +127,7 @@ export default function Resume() {
               <img src="/img/course-JS.jpg" alt="" />
             </Fade>
           </Col>
-          <Col style={{ marginTop: "23px" }}>
+          <Col className="description">
             <Fade direction="right">
               <p style={{ lineHeight: "16px" }}>
                 <MdOutlineDoubleArrow /> Introduction to JavaScript
