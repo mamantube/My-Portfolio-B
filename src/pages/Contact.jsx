@@ -45,7 +45,7 @@ export default function Contact() {
   return (
     <section className="justify-content-center align-items-center">
       <Row>
-        <Col className=" d-flex justify-content-center align-items-center mb-5">
+        <Col className=" d-flex justify-content-center align-items-center mb-4">
           <div className="social-buttons">
             <a href="https://github.com/mamantube" target="blank_" className="social-button github">
               <svg
