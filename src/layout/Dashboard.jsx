@@ -3,6 +3,7 @@ import { Navbar, Nav, Container, Button } from "react-bootstrap";
 import { useState } from "react";
 import "../assets/css/dashboard.css";
 import Footer from "../components/Footer";
+import { TypeAnimation } from "react-type-animation";
 
 export default function Dashboard() {
   const [show, setShow] = useState(true);
@@ -20,7 +21,7 @@ export default function Dashboard() {
       <Navbar bg="dark" data-bs-theme="dark" expand="md" collapseOnSelect>
         <Container >
           <Navbar.Brand>
-            <h3 className="text-h3">Maman</h3>
+            <TypeAnimation className="my-brand" sequence={[`< Muhammad Firman Hidayat />`,]} cursor={false} />
           </Navbar.Brand>
           <Button className="d-md-none" onClick={onShowMenu}>
             <i className={`${closeMenu} bi bi-list nav-button-icon`}></i>
